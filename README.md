@@ -2,27 +2,27 @@
 
 Este es un proyecto de calculadora web utilizando HTML, CSS y JavaScript.
 
-##Cómo utilizar
+## Cómo utilizar
 Clona este repositorio en tu computadora local.
 Abre el archivo index.html en tu navegador web.
 Usa los botones para realizar cálculos básicos.
 Capturas de pantalla
 Captura de pantalla de la calculadora
 
-##Capturas de pantalla
+## Capturas de pantalla
 
 Escritorio
 ![CALCULADORA1](https://user-images.githubusercontent.com/66340501/224471995-9b7aa60e-4587-4a3a-8106-c0a7b29b7507.PNG)
 
-##version mobile
+## version mobile
 
 ![VERSIONPARAMOBILE](https://user-images.githubusercontent.com/66340501/224472010-285f0aff-be8d-4b3c-97e2-afbdc6c35199.PNG)
 
-##Contribuir
+## Contribuir
 Si deseas contribuir a este proyecto, puedes hacer un pull request y lo revisaremos lo antes posible.
 
-##Licencia
+## Licencia
 Si deseas contribuir a este proyecto, por favor haz un fork del repositorio y crea una rama con tus cambios. Luego, crea un pull request para que podamos revisar tus cambios y fusionarlos en el proyecto principal.
 
-##Contacto
+## Contacto
 Si tienes alguna duda o comentario sobre este proyecto, puedes contactarme a través de mi correo electrónico: emanuel.b.oficial01@gmail.com
