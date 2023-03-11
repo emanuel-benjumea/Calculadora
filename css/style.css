@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    color: aliceblue;
+    background-color: #022668;
+
+  }
+  
+  td {
+    padding: 10px 10px 10px 10px;
+    text-align: center; 
+   border:none ;
+   
+   background-color: #022668;
+   
+    
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    text-align: right;
+    background-color: blanchedalmond;
+    border-radius: 10%;
+   
+
+  }
+  button{
+    padding: 30px 45px;
+    background-color: blanchedalmond;
+    font-size: 40px;
+    border-radius: 20%;
+  }
+  
+  tr{
+    
+    border:20px #022668 solid;
+
+  }
+ 
+
+
