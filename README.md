@@ -1,13 +1,12 @@
 # Calculadora
 
-Este es un proyecto de calculadora web utilizando HTML, CSS y JavaScript.
+Este es un proyecto de una calculadora web básica construida con HTML, CSS y JavaScript. La calculadora permite realizar operaciones aritméticas básicas y se construyó utilizando tablas para el diseño de la interfaz. Además, se incluyen imágenes para facilitar la comprensión del funcionamiento y la interfaz de usuario de la calculadora.
 
 ## Cómo utilizar
-Clona este repositorio en tu computadora local.
-Abre el archivo index.html en tu navegador web.
-Usa los botones para realizar cálculos básicos.
-Capturas de pantalla
-Captura de pantalla de la calculadora
+* Clona este repositorio en tu computadora local.
+* Abre el archivo index.html en tu navegador web.
+* Usa los botones para realizar cálculos básicos.
+
 
 ## Capturas de pantalla
 
