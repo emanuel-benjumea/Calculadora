@@ -6,53 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="css/style.css">
- 
     <link rel="shortcut icon" href="img/icon.gif">
-  
 </head>
 <body>
     <main>
-
-        <div class="color">
-        <table>
-            <tr>
-              <td colspan="4"><input type="text" id="result" readonly></td>
-            </tr>
-            <tr>
-              <td><button onclick="insertNumber(7)">7</button></td>
-              <td><button onclick="insertNumber(8)">8</button></td>
-              <td><button onclick="insertNumber(9)">9</button></td>
-              <td><button onclick="ingesaroperador('/')">/</button></td>
-            </tr>
-            <tr>
-              <td><button onclick="insertNumber(4)">4</button></td>
-              <td><button onclick="insertNumber(5)">5</button></td>
-              <td><button onclick="insertNumber(6)">6</button></td>
-              <td><button onclick="ingesaroperador('*')">*</button></td>
-            </tr>
-            <tr>
-              <td><button onclick="insertNumber(1)">1</button></td>
-              <td><button onclick="insertNumber(2)">2</button></td>
-              <td><button onclick="insertNumber(3)">3</button></td>
-              <td><button onclick="ingesaroperador('-')">-</button></td>
-            </tr>
-            <tr>
-              <td><button onclick="insertNumber(0)">0</button></td>
-              <td><button onclick="ingesaroperador('.')">.</button></td>
-              <td><button onclick="calculate()">=</button></td>
-              <td><button onclick="ingesaroperador('+')">+</button></td>
-            </tr>
-            <tr>
-              <td colspan="4"><button onclick="clearAll()">BORRAR</button></td>
-            </tr>
-          </table>
+        <div class="calculator">
+            <input type="text" id="result" readonly>
+            <table>
+                <tr>
+                    <td><button class="operator" onclick="ingesaroperador('/')">/</button></td>
+                    <td><button class="operator" onclick="ingesaroperador('*')">x</button></td>
+                    <td><button class="operator" onclick="ingesaroperador('-')">-</button></td>
+                    <td><button class="operator" onclick="ingesaroperador('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insertNumber(7)">7</button></td>
+                    <td><button onclick="insertNumber(8)">8</button></td>
+                    <td><button onclick="insertNumber(9)">9</button></td>
+                    <td rowspan="2"><button class="equals" onclick="calculate()">=</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insertNumber(4)">4</button></td>
+                    <td><button onclick="insertNumber(5)">5</button></td>
+                    <td><button onclick="insertNumber(6)">6</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insertNumber(1)">1</button></td>
+                    <td><button onclick="insertNumber(2)">2</button></td>
+                    <td><button onclick="insertNumber(3)">3</button></td>
+                    <td><button onclick="insertNumber(0)">0</button></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><button class="clear" onclick="clearAll()">C</button></td>
+                </tr>
+            </table>
         </div>
-        <div class="centrado">
-           
-            <p>&copy; Emanuel Benjumea Bejarano</p>
-        </div>
-        
-          <script src="js/script.js"></script>
+        <p class="footer">&copy; Emanuel Benjumea Bejarano</p>
+        <script src="js/script.js"></script>
     </main>
 </body>
 </html>
